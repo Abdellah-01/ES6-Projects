@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+.navbar-light .navbar-nav .nav-link {
+    color: #28282B;
+}
+.navbar{
+    background-color: #E0E9F5;
+}
+.navbar-nav
+{
+    padding-top: 8px;
+    text-align: right;
+}
+.menu-bar .navbar-toggler
+{
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+.fa-slack{
+    padding-right: 8px;
+}
+.navigation{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+/* Banner */
+#banner{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../Images/banner-main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-transform: capitalize;
+}
+#banner h1{
+    padding-top: 180px;
+    font-size: 55px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+#banner p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.search-job{
+    padding: 30px 0;
+    margin: -60px 6% 50px;
+    background: #A9BED4;
+}
+.search-job .form-control{
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    border-radius: 0 !important;
+    border: 0 !important;
+    box-shadow: 0 !important;
+}
+.search-job button a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Top Recruiters */
+#company{
+    padding: 80px 0;
+}
+#company .company-header-text h1{
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+.company-logo img{
+   max-width: 120px;
+   margin: 20px; 
+}
+
+/*Rrecent Updates */
+#jobs{
+    padding: 50px 0;
+    background-color: #f8f8fa;
+}
+#jobs h1{
+    text-transform: uppercase;
+    padding: 50px 0 80px 0;
+}
+.company-details{
+    box-shadow: 0 2px 70px 0 rgba(100, 130, 208, 0.18);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.job-update{
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 5px;
+}
+.job-update i{
+    margin: 5px 10px 4px 0px;
+}
+.job-update .new{
+    margin-left: 10px;
+}
+.job-update small{
+    display: inline-block;
+    margin: 5px;
+    background: lightgray;
+    padding: 5px 10px;
+}
+.apply-btn{
+    background: #A9BED4;
+    padding: 5px;
+}
+.apply-btn .btn-primary{
+    width: 100%;
+    background: transparent !important;
+    outline: none !important;
+    border: 1px solid white !important;
+    box-shadow: none !important;
+}
+.page-number li{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+}
+.page-number li:hover, .active{
+    color: #fff;
+    background: #A9BED4;
+}
+
+/* site-stats */
+#site-stats{
+    padding: 100px 0;
+}
+#site-stats h1{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.stats-details{
+    padding: 25px 0 0 25px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 40px 0 rgba(100, 130, 208, 0.18);
+}
+
+.stats-details i{
+    font-size: 30;
+    margin: 0 10px 10px 0;
+}
+.stats-details p{
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+/* Download App */
+#banner-app{
+    height: 80vh;
+    background: url('../Images/Banner-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 0;
+}
+.app-download{
+    min-height: 350px;
+    background: rgba(0,0,0,0.5);
+    padding-bottom: 40px;
+}
+.app-download h1{
+    color: White;
+    text-transform: capitalize;
+    padding-top: 75px;
+}
+.app-download img{
+    margin: 30px 25px 0 0;
+}
+
+/* Footer */
+#footer{
+    background: #E0E9F5;
+    color: #28282B;
+    padding: 20px;
+}
+.footer-1 h2{
+    padding-top: 20px;
+}
+.footer-2 h4, .footer-3 h4, .footer-4 h4{
+    text-align: left;
+    margin: 25px 0;
+}
+.footer-2{
+    margin-left: 50px;
+}
+.footer-2 p, .footer-3 p, .footer-4 p{
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer-3 p i, .footer-4 p i{
+    padding-right: 8px;
+}
+.copy-right{
+    padding-top: 10px;
+    text-align: center;
+}
+@media only screen and (max-width: 615px){
+    .footer-2{
+        margin-left: 0px;
+    }
+ .search-job input[type="submit"]{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .search-job 
+    .search-job {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%; */
+    }
+    .search-job .form-control {
+        max-width: 80% !important;
+    }
+    #banner h1{
+        font-size: 40px;
+    }
+    #banner p{
+        font-size: 16px;
+    }
+}

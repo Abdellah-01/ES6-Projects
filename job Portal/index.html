@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- Font awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+
+    <!-- Title of the document -->
+    <title>Job Portal</title>
+</head>
+<body>
+    <!-- Home Section -->
+    <section id="header">
+      <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><i class="fa-brands fa-slack" style="color: rgba(0,0,0,.9);"></i>JOB PORTAl</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#banner">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#company">Companies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jobs">All Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#site-stats">Stats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#banner-app">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Navigation Key -->
+      <div class="navigation">
+        <a href="#header"><i class="fa-solid fa-arrow-up" style="color: #222325;"></i></a>
+      </div>
+
+      <!-- Banner -->
+      <div id="banner" class="text-center">
+        <h1>Jobs Around You</h1>
+        <p>I will never be unemployed !</p>
+      </div>
+    </section>
+
+    <!-- Search Jobs -->
+    <div class="search-job search-job text-center">
+      <form action="#jobs">
+        <input type="search" class="form-control" placeholder="Search keywords" required>
+        <input type="search" class="form-control" placeholder="Search Companies" required>
+        <input type="search" class="form-control" placeholder="Search Location" required>
+        <!-- <button class="btn btn-primary"><a href="#jobs">Find Jobs</a></button> -->
+        <input type="submit" class="btn btn-primary" value="Find Jobs">
+      </form>
+    </div>
+
+    <!-- Top Recruiters -->
+    <section id="company">
+      <div class="container text-center">
+        <div class="company-header-text">
+          <h1>Top Recruiters</h1>
+          <div class="company-logo">
+            <img src="Assets/Images/amazon.png" alt="">
+            <img src="Assets/Images/affect.png" alt="">
+            <img src="Assets/Images/adobe.png" alt="">
+            <img src="Assets/Images/netflex.png" alt="">
+            <img src="Assets/Images/cisco.png" alt="">
+            <img src="Assets/Images/dell.png" alt="">
+          </div>
+          <div class="company-logo">
+            <img src="Assets/Images/Infosys.png" alt="">
+            <img src="Assets/Images/byju.png" alt="">
+            <img src="Assets/Images/indeed.png" alt="">
+            <img src="Assets/Images/tnw.png" alt="">
+            <img src="Assets/Images/DANONE.png" alt="">
+            <img src="Assets/Images/IBM.png" alt="">
+          </div>
+          <div class="company-logo">
+            <img src="Assets/Images/adobe.png" alt="">
+            <img src="Assets/Images/IDC.png" alt="">
+            <img src="Assets/Images/fadex.png" alt="">
+            <img src="Assets/Images/wallmart.png" alt="">
+            <img src="Assets/Images/microsoft.png" alt="">
+            <img src="Assets/Images/forbes.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Jobs -->
+    <section id="jobs">
+        <div class="container">
+          <h1 class="text-center">Recent Updates</h1>
+          <div class="company-details">
+            <div class="job-update">
+              <h4><b>Senior Web Developer (Experienced)</b></h4>
+              <p>ABC Company Pvt Ltd</p>
+              <span><i class="fa-solid fa-business-time"></i>1 - 3 Years</span><br>
+              <span><i class="fa-solid fa-indian-rupee-sign"></i>5 Lakhs - 8 Lakhs Per Anum</span><br>
+              <span><i class="fa-solid fa-map-location"></i>Chennai</span><br><br>
+              <p><b>Skills</b><i class="fa-solid new fa-angles-right"></i><small>HTML</small><small>CSS</small><small>HTML</small><small>Java Script</small><small>React JS</small><small>Python</small></p>
+              <p><b>Description</b><i class="fa-solid new fa-angles-right"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur obcaecati sit atque? Placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eveniet velit veritatis voluptatibus voluptates. <a href="job-description.html">Read More</a></p>
+            </div>
+            <div class="apply-btn text-center">
+              <a href="job-description.html"><input type="button" class="btn btn-primary" value="Apply Here"></a>
+            </div>
+          </div>
+          <div class="company-details">
+            <div class="job-update">
+              <h4><b>Senior Web Developer (Experienced)</b></h4>
+              <p>ABC Company Pvt Ltd</p>
+              <span><i class="fa-solid fa-business-time"></i>1 - 3 Years</span><br>
+              <span><i class="fa-solid fa-indian-rupee-sign"></i>5 Lakhs - 8 Lakhs Per Anum</span><br>
+              <span><i class="fa-solid fa-map-location"></i>Chennai</span><br><br>
+              <p><b>Skills</b><i class="fa-solid new fa-angles-right"></i><small>HTML</small><small>CSS</small><small>HTML</small><small>Java Script</small><small>React JS</small><small>Python</small></p>
+              <p><b>Description</b><i class="fa-solid new fa-angles-right"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur obcaecati sit atque? Placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eveniet velit veritatis voluptatibus voluptates. <a href="job-description.html">Read More</a></p>
+            </div>
+            <div class="apply-btn text-center">
+              <a href="job-description.html"><input type="button" class="btn btn-primary" value="Apply Here"></a>
+            </div>
+          </div>
+          <div class="company-details">
+            <div class="job-update">
+              <h4><b>Senior Web Developer (Experienced)</b></h4>
+              <p>ABC Company Pvt Ltd</p>
+              <span><i class="fa-solid fa-business-time"></i>1 - 3 Years</span><br>
+              <span><i class="fa-solid fa-indian-rupee-sign"></i>5 Lakhs - 8 Lakhs Per Anum</span><br>
+              <span><i class="fa-solid fa-map-location"></i>Chennai</span><br><br>
+              <p><b>Skills</b><i class="fa-solid new fa-angles-right"></i><small>HTML</small><small>CSS</small><small>HTML</small><small>Java Script</small><small>React JS</small><small>Python</small></p>
+              <p><b>Description</b><i class="fa-solid new fa-angles-right"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur obcaecati sit atque? Placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eveniet velit veritatis voluptatibus voluptates. <a href="job-description.html">Read More</a></p>
+            </div>
+            <div class="apply-btn text-center">
+              <a href="job-description.html"><input type="button" class="btn btn-primary" value="Apply Here"></a>
+            </div>
+          </div>
+          <div class="company-details">
+            <div class="job-update">
+              <h4><b>Senior Web Developer (Experienced)</b></h4>
+              <p>ABC Company Pvt Ltd</p>
+              <span><i class="fa-solid fa-business-time"></i>1 - 3 Years</span><br>
+              <span><i class="fa-solid fa-indian-rupee-sign"></i>5 Lakhs - 8 Lakhs Per Anum</span><br>
+              <span><i class="fa-solid fa-map-location"></i>Chennai</span><br><br>
+              <p><b>Skills</b><i class="fa-solid new fa-angles-right"></i><small>HTML</small><small>CSS</small><small>HTML</small><small>Java Script</small><small>React JS</small><small>Python</small></p>
+              <p><b>Description</b><i class="fa-solid new fa-angles-right"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur obcaecati sit atque? Placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eveniet velit veritatis voluptatibus voluptates. <a href="job-description.html">Read More</a></p>
+            </div>
+            <div class="apply-btn text-center">
+              <a href="job-description.html"><input type="button" class="btn btn-primary" value="Apply Here"></a>
+            </div>
+          </div>
+          <div class="company-details">
+            <div class="job-update">
+              <h4><b>Senior Web Developer (Experienced)</b></h4>
+              <p>ABC Company Pvt Ltd</p>
+              <span><i class="fa-solid fa-business-time"></i>1 - 3 Years</span><br>
+              <span><i class="fa-solid fa-indian-rupee-sign"></i>5 Lakhs - 8 Lakhs Per Anum</span><br>
+              <span><i class="fa-solid fa-map-location"></i>Chennai</span><br><br>
+              <p><b>Skills</b><i class="fa-solid new fa-angles-right"></i><small>HTML</small><small>CSS</small><small>HTML</small><small>Java Script</small><small>React JS</small><small>Python</small></p>
+              <p><b>Description</b><i class="fa-solid new fa-angles-right"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur obcaecati sit atque? Placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eveniet velit veritatis voluptatibus voluptates. <a href="job-description.html">Read More</a></p>
+            </div>
+            <div class="apply-btn text-center">
+              <a href="job-description.html"><input type="button" class="btn btn-primary" value="Apply Here"></a>
+            </div>
+          </div>
+          <div class="company-details">
+            <div class="job-update">
+              <h4><b>Senior Web Developer (Experienced)</b></h4>
+              <p>ABC Company Pvt Ltd</p>
+              <span><i class="fa-solid fa-business-time"></i>1 - 3 Years</span><br>
+              <span><i class="fa-solid fa-indian-rupee-sign"></i>5 Lakhs - 8 Lakhs Per Anum</span><br>
+              <span><i class="fa-solid fa-map-location"></i>Chennai</span><br><br>
+              <p><b>Skills</b><i class="fa-solid new fa-angles-right"></i><small>HTML</small><small>CSS</small><small>HTML</small><small>Java Script</small><small>React JS</small><small>Python</small></p>
+              <p><b>Description</b><i class="fa-solid new fa-angles-right"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur obcaecati sit atque? Placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eveniet velit veritatis voluptatibus voluptates. <a href="job-description.html">Read More</a></p>
+            </div>
+            <div class="apply-btn text-center">
+              <a href="job-description.html"><input type="button" class="btn btn-primary" value="Apply Here"></a>
+            </div>
+          </div>
+          <ul class="page-number text-center">
+            <li class="left-arrow">&#8592;</li>
+            <li class="active">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li class="right-arrow">&#8592;</li>
+          </ul>
+        </div>
+    </section>
+
+    <!-- Jobs Stats  -->
+    <section id="site-stats">
+      <div class="container text-center">
+        <h1>job portal site stats</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="stats-details">
+                  <span><i class="fa-solid fa-user-tie"></i><small>100k +</small></span>
+                  <p>Job Seekers</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stats-details">
+                  <span><i class="fa-solid fa-user-graduate"></i><small>500 +</small></span>
+                  <p>Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="stats-details">
+                  <span><i class="fa-solid fa-building-circle-check"></i><small>10k +</small></span>
+                  <p>Active Jobs</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stats-details">
+                  <span><i class="fa-solid fa-building"></i><small>400 +</small></span>
+                  <p>Companies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner App -->
+    <section id="banner-app">
+      <div class="app-download">
+        <div class="container text-center">
+        <h1>Find Jobs on mobile, download Quick Job App</h1>
+        <img src="Assets/Images/play-store.png" alt="">
+        <img src="Assets/Images/app-store.png" alt="">
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <div class="footer-1">
+                      <h2>Quick Job</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis cum obcaecati recusandae pariatur, nam, aliquid fugiat quam ratione sint et. Iusto eum commodi ab incidunt aut, temporibus culpa est!</p>    
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="footer-2">
+                      <h4>Features</h4>
+                      <p>Deals & Offers</p>
+                      <p>Cancellation Policy</p>
+                      <p>Refund Methods</p>
+                      <p>24/7 Support</p>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="footer-3">
+                      <h4>Follow Us On</h4>
+                      <p><i class="fa-brands fa-instagram"></i>Instagram</p>
+                      <p><i class="fa-brands fa-linkedin"></i>LinkedIn</p>
+                      <p><i class="fa-brands fa-square-facebook"></i>Facebook</p>
+                      <p><i class="fa-brands fa-square-x-twitter"></i>Twitter</p>
+                  </div>
+              </div>
+              
+              <div class="col-md-3">
+                  <div class="footer-4">
+                      <h4>Quick Contact</h4>
+                      <p><i class="fa-solid fa-envelope"></i>Sample@gmail.com</p>
+                      <p><i class="fa-solid fa-phone"></i>+91 96*** **547</p>
+                      <p><i class="fa-solid fa-location-dot"></i>2/243 ABC Street, Chennai <br> Tamil Nadu, India</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <hr>
+      <div class="copy-right">
+          <p>Copyright © 2024 All Rights Reserved.</p>
+      </div>
+  </section>
+
+
+
+    <!-- Bootstrap jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Bootsrap JS CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <!-- Scripting Sheet -->
+    <script src="Assets/JS/script.js"></script>
+</body>
+</html>

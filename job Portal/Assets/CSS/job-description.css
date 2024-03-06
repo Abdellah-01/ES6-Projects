@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Section */
+#header{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../Images/job-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+.header-text{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-text h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.header-text p{
+    text-transform: capitalize;
+}
+
+/* Job Description */
+#job-description{
+    padding: 100px 0;
+
+}
+.job-info-left h2{
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-bottom: 3px;
+}
+.job-info-left span{
+    margin-right: 10px;
+}
+.job-info-left span i{
+    padding-right: 7px;
+}
+.job-des-left, .apply-job{
+    margin-top: 50px;
+}
+.responsibility-left{
+    padding: 30px 0;
+}
+.responsibility-left-list p i{
+    padding: 0px 10px;
+}
+.apply-job h3{
+    padding-bottom: 30px;
+}
+.apply-job input{
+    margin-bottom: 15px;
+}
+input[type="submit"]{
+    width: 100%;
+    margin-top: 15px;
+}
+.job-summary h4{
+    padding-bottom: 15px;
+}
+.job-summary p i{
+    padding: 0 12px;
+}
+.job-summary{
+    background: aliceblue;
+    padding: 20px 25px;
+}
+.job-summary:nth-of-type(2){
+    margin-top: 30px;
+}
